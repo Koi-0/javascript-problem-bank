@@ -7,7 +7,9 @@
  */
 
 function reassignConst() {
-  // TODO
+    // TODO
+    const num = 100;
+    num = 50;
 }
 
 // export 를 수정하지 마세요.
