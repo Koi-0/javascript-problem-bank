@@ -30,5 +30,13 @@ let subtract = 20;
 let multiply = 1;
 let divide = 100;
 
+increment += 1;
+decrement -= 1;
+
+add = add += num1;
+subtract = subtract -= num1;
+multiply = multiply *= num1;
+divide = divide /= num1;
+
 // export 를 수정하지 마세요.
 export { increment, decrement, add, subtract, multiply, divide };
