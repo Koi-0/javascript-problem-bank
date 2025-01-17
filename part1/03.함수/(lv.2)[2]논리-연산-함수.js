@@ -10,7 +10,13 @@
  */
 
 function canDrive(age, hasLicense) {
-  // TODO
+    // if (age >= 18 && hasLicense) {
+    //     return true;
+    // } else if (age < 18 || !hasLicense) {
+    //     return false;
+    // }
+
+    return age >= 18 && hasLicense ? true : age < 18 || !hasLicense ? false : "";
 }
 
 // export 를 수정하지 마시오.
