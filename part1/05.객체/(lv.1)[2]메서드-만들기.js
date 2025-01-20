@@ -11,8 +11,8 @@ const name = "철수";
 const age = 25;
 
 const person = {
-  // TODO: introduce 메서드를 작성하세요.
-  introduce() {},
+    // TODO: introduce 메서드를 작성하세요.
+    introduce() {},
 };
 
 // export를 수정하지 마세요.

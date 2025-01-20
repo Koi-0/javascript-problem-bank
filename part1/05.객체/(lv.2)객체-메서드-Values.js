@@ -9,8 +9,10 @@
  * @param {object} obj
  * @returns {string[]}
  */
+
 function getObjectValues(obj) {
-  // TODO
+    // TODO
+    return Object.values(obj);
 }
 
 // export를 수정하지 마세요.

@@ -9,7 +9,7 @@
  * @returns {number}
  */
 function countProperties(obj) {
-  // TODO
+    // TODO
 }
 
 export { countProperties };
