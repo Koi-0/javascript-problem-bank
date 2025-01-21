@@ -6,8 +6,8 @@
  * @returns {{ name: string, age: number }}
  */
 
+// TODO: name, age 프로퍼티를 각각 "Alice", 25로 설정하세요.
 const person = {
-    // TODO: name, age 프로퍼티를 각각 "Alice", 25로 설정하세요.
     name: "Alice",
     age: 25,
 };

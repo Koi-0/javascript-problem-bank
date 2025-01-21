@@ -10,7 +10,6 @@
  */
 
 function getObjectKeys(obj) {
-    // TODO
     return Object.keys(obj);
 }
 

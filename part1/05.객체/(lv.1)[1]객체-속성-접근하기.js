@@ -14,8 +14,8 @@ const person = {
     age: 25,
 };
 
+// TODO: person의 name, age를 이용하고, person보다 나이가 1살 많아야 합니다.
 const person2 = {
-    // TODO: person의 name, age를 이용하고, person보다 나이가 1살 많아야 합니다.
     name: person.name,
     age: 26,
 };

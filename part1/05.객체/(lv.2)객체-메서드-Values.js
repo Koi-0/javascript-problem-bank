@@ -11,7 +11,6 @@
  */
 
 function getObjectValues(obj) {
-    // TODO
     return Object.values(obj);
 }
 
