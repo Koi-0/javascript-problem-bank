@@ -9,8 +9,14 @@
  * @param {number[]} arr
  * @returns {number} 배열 원소의 합
  */
+
+// TODO
 function sumArray(arr) {
-  // TODO
+    let sum = 0;
+    arr.forEach(function (num) {
+        sum += num;
+    });
+    return sum;
 }
 
 // export를 수정하지 마세요.

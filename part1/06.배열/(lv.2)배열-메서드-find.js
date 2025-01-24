@@ -26,7 +26,7 @@ function findUserByName(users, name) {
 
 // TODO: findIndexOf 함수를 작성하세요.
 function findIndexOf(arr, value) {
-    return arr.find((num) => num.value === value || -1);
+    return arr.findIndex((element) => element === value);
 }
 
 // export를 수정하지 마세요.

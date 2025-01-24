@@ -9,8 +9,10 @@
  * @returns {any[]} 뒤집힌 새 배열
  */
 
+// TODO: 원본을 변경하지 않고, 뒤집힌 새 배열을 반환하세요.
 function reverseArray(arr) {
-  // TODO: 원본을 변경하지 않고, 뒤집힌 새 배열을 반환하세요.
+    let reverse = [...arr];
+    return reverse.reverse();
 }
 
 export { reverseArray };

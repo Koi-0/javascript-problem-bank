@@ -12,8 +12,11 @@
  * @param {number} [end]
  * @returns {any[]} 잘려진 새 배열
  */
+
+// TODO
 function subArray(arr, start, end) {
-  // TODO
+    let newArr = arr.slice(start, end);
+    return newArr;
 }
 
 // export를 수정하지 마세요.
