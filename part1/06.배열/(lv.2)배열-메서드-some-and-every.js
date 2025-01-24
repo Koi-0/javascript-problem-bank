@@ -10,7 +10,13 @@
  */
 
 // TODO: hasNegative 함수를 작성하세요.
-function hasNegative() {}
+function hasNegative(num) {
+    let minusNum = (num) => {
+        num < 0;
+    };
+
+    return arr.some(minusNum);
+}
 
 // TODO: allPositive 함수를 작성하세요.
 function allPositive() {}
