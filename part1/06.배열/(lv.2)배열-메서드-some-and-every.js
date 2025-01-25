@@ -10,16 +10,16 @@
  */
 
 // TODO: hasNegative 함수를 작성하세요.
-function hasNegative(num) {
-    let minusNum = (num) => {
-        num < 0;
-    };
-
+function hasNegative(arr) {
+    let minusNum = (num) => num < 0;
     return arr.some(minusNum);
 }
 
 // TODO: allPositive 함수를 작성하세요.
-function allPositive() {}
+function allPositive(arr) {
+    let plusNum = (num) => num > 0;
+    return arr.every(plusNum);
+}
 
 // export를 수정하지 마세요.
 export { hasNegative, allPositive };
