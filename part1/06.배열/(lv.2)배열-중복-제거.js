@@ -8,8 +8,11 @@
  * @param {any[]} arr
  * @returns {any[]} 중복이 제거된 새 배열
  */
+
+// TODO : 중복을 제거한 새 배열을 반환하세요.
 function getUniqueElements(arr) {
-  // TODO: 중복을 제거한 새 배열을 반환하세요.
+    let setArr = [...new Set(arr)];
+    return setArr;
 }
 
 // export를 수정하지 마세요.
