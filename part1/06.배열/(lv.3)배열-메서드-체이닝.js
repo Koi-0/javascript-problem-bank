@@ -14,8 +14,12 @@
  * @returns {string[]} 20대 사람의 email 배열
  */
 
+// TODO: 배열 메서드 체이닝을 사용해 20대 사람의 email 배열을 반환하세요.
 function get20sEmail(arr) {
-  // TODO: 배열 메서드 체이닝을 사용해 20대 사람의 email 배열을 반환하세요.
+    return arr
+        .filter((person) => person.age >= 20 && person.age < 30) // 20대만 필터링
+        .sort((a, b) => a.age - b.age) // 나이 순 정렬
+        .map((person) => person.email); // email만 추출
 }
 
 // export를 수정하지 마세요.

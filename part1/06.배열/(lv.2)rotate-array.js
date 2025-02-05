@@ -9,7 +9,15 @@
  */
 
 // TODO: 원본을 변경하지 않고, 마지막 요소를 맨 앞으로 이동한 새 배열을 반환
-function rotateArray(arr) {}
+function rotateArray(arr) {
+    if (arr.length === 0) return arr; // 빈 배열 처리
+
+    const lastElement = arr.pop(); // 마지막 요소를 꺼냄
+
+    arr.unshift(lastElement); // 꺼낸 요소를 맨 앞에 추가
+
+    return arr;
+}
 
 // export를 수정하지 마세요.
 export { rotateArray };
