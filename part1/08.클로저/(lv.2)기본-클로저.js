@@ -7,9 +7,14 @@
  *
  * @returns {Function} 내부 함수
  */
-function simpleClosure() {
-  let message = "Hello Closure!";
-}
 
+function simpleClosure() {
+    let message = "Hello Closure!"; // 1) message 선언
+
+    return function () {
+        // 2) 내부 함수 반환
+        return message; // 3) 내부 함수에서 message 반환
+    };
+}
 // export를 수정하지 마세요.
 export { simpleClosure };
