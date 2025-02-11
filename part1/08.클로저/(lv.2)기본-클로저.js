@@ -16,5 +16,6 @@ function simpleClosure() {
         return message; // 3) 내부 함수에서 message 반환
     };
 }
+
 // export를 수정하지 마세요.
 export { simpleClosure };
