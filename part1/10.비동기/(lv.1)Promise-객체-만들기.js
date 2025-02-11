@@ -8,8 +8,17 @@
  * @type {Promise<string>}
  */
 
-let resolvePromise;
-let rejectPromise;
+let resolvePromise = new Promise((resolve, reject) => {
+    resolve("Hello");
+});
+
+resolvePromise.then((message) => console.log(message)).catch((error) => console.log(error));
+
+let rejectPromise = new Promise((resolve, reject) => {
+    reject("Error!");
+});
+
+rejectPromise.then((message) => console.log(message)).catch((error) => console.log(error));
 
 // export를 수정하지 마세요.
 export { resolvePromise, rejectPromise };
